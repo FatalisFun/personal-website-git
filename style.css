@@ -1,0 +1,169 @@
+body {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  max-width: auto;
+  margin: 0px;
+  border-right: 200px black solid;
+  border-left: 200px black solid;
+  box-shadow: 10px 10px black;
+  padding: 2px;
+  font-size: 16px;
+  background-image: url("https://wallpaperaccess.com/full/1559254.png");
+  background-repeat: no-repeat;
+  color: rgb(223, 223, 223);
+  background-size: 100% 100%;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-size: 64px;
+
+  letter-spacing: .1em;
+  color: #e0dfdc;
+   text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+}
+.bio h4{
+  padding: 1%;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+h3{
+  color: #e0dfdc;
+  font-size: 32px;
+  letter-spacing: .1em;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9);
+}
+.achievements h1{
+  color: white;
+  letter-spacing: .1em;
+  font-size: 15px;
+  font-family: Impact, fantasy;
+Arnoldboecklin, fantasy;
+Oldtown, fantasy;
+Blippo, fantasy;
+Brushstroke, fantasy;
+fantasy;
+  
+}
+
+.achievements h2{
+  text-align: left;
+  color: #43d3cf;
+  font-size: 15px;
+  font-family: Andale Mono, monospace;
+Courier New, monospace;
+Courier, monospace;
+Lucidatypewriter, monospace;
+Fixed, monospace;
+monospace;
+}
+
+.achievements h3{
+  text-align: left;
+  color: #434ed3;
+  font-size: 15px;
+  font-family: Andale Mono, monospace;
+Courier New, monospace;
+Courier, monospace;
+Lucidatypewriter, monospace;
+Fixed, monospace;
+monospace;
+}
+.achievements h4{
+  text-align: left;
+  color: #ce43d3;
+  font-family: Andale Mono, monospace;
+Courier New, monospace;
+Courier, monospace;
+Lucidatypewriter, monospace;
+Fixed, monospace;
+monospace;
+}
+
+
+.bio{
+  margin: 70px;
+  font-size: 10px;
+  padding: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.achievements{
+  
+  font-size: 15px;
+  margin: auto;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgba(0,0,0, .8);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.nav-wrapper{
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 35px;
+  
+}
+
+.leftside{
+  display:flex;
+}
+.nav-wrapper > .leftside > div{
+  margin-right: 15px;
+  color: white;
+  font-size: 25px;
+  
+  text-transform: uppercase;
+  
+}
+
+
+.nav-link-wrapper:hover{
+  border-bottom: 1px solid rgb(211, 211, 211);
+}
+.nav-link-wrapper a:hover{
+  color: rgb(199, 199, 199);
+}
+
+/* .dark{
+  background: #f2709c
+} */
+
+img {
+  height: 100px;
+  border-radius: 50%;
+
+}
+
+html{
+  margin: 1px;
+  background:white
+}
+
+.social a{
+  text-decoration: none;
+  color: grey;
+  margin: 8px;
+}
+
+.social a:hover{
+  opacity: .2;
+}
+.social .instagram{
+  color: #bc2a8d;
+}
+.social .linkedin{
+  color: #0e76a8;
+}
+.social .mail{
+  color: #46B8E3;
+}
+
+
+
+@media only screen (max-device-width : 480px) {
+  body{
+    background-size: 100% 100%; /* Resize the background image to cover the entire container */
+  }
+}
